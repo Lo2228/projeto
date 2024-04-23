@@ -25,4 +25,33 @@ Para Linux:
 Passo 3: Verificar a instalação
 - Abra um terminal (ou prompt de comando no Windows).
 - Digite python --version e pressione Enter.
-- Se a instalação foi bem-sucedida, você verá a versão do Python instalada.
+- Se a instalação foi bem-sucedida, você verá a versão do Python instalada
+
+
+Tutorial de virtualenv
+
+asso 1: Instalar o virtualenv
+- Abra um terminal (ou prompt de comando no Windows).
+- Certifique-se de ter o Python instalado seguindo o tutorial anterior.
+- Digite o seguinte comando para instalar o virtualenv: pip install virtualenv
+
+Passo 2: Criar um ambiente virtual
+- Navegue até a pasta do seu projeto usando o terminal.
+- Digite o seguinte comando para criar um ambiente virtual: virtualenv venv
+- "venv" é o nome do ambiente virtual, você pode substituí-lo por outro nome, se desejar.
+
+Passo 3: Ativar o ambiente virtual
+Para Windows:
+- No terminal, navegue até a pasta do projeto.
+- Digite o seguinte comando para ativar o ambiente virtual: venv\Scripts\activate
+
+Passo 4: Instalar o Flask
+- Com o ambiente virtual ativado, digite o seguinte comando: pip install Flask
+
+Passo 5: Verificar a instalação
+- Com o ambiente virtual ainda ativado, digite o seguinte comando: flask --version
+- Se a instalação foi bem-sucedida, você verá a versão do Flask instalada.
+
+Passo 6: Desativar o ambiente virtual
+- Quando terminar de trabalhar no projeto, digite o seguinte comando no terminal: deactivate
+- Isso desativará o ambiente virtual e você retornará ao ambiente padrão do seu sistema.
