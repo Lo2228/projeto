@@ -1,0 +1,28 @@
+tutorial_python
+Passo 1: Baixar o Python
+- Acesse o site oficial do Python em https://www.python.org/
+- Clique no link "Downloads" no menu principal.
+- Escolha a versão mais recente do Python para o seu sistema operacional (Windows, macOS, ou Linux).
+
+Passo 2: Instalar o Python
+Para Windows:
+- Após baixar o instalador, execute-o.
+- Marque a opção "Add Python 3.x to PATH" durante o processo de instalação para facilitar o acesso ao Python pelo terminal.
+- Clique em "Install Now" e siga as instruções na tela.
+
+Para macOS:
+- Abra o arquivo baixado (provavelmente um arquivo .dmg).
+- Dê um duplo clique no ícone do pacote Python.
+- Siga as instruções na tela para completar a instalação.
+
+Para Linux:
+- Abra um terminal.
+- Navegue até o diretório onde o arquivo foi baixado.
+- Execute o seguinte comando para extrair o arquivo: tar -xf nome_do_arquivo.tar.xz (substitua "nome_do_arquivo" pelo nome do arquivo baixado).
+- Navegue até o diretório extraído.
+- Execute o seguinte comando para iniciar o processo de instalação: ./configure && make && sudo make install.
+
+Passo 3: Verificar a instalação
+- Abra um terminal (ou prompt de comando no Windows).
+- Digite python --version e pressione Enter.
+- Se a instalação foi bem-sucedida, você verá a versão do Python instalada.
