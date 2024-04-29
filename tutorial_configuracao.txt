@@ -1,0 +1,22 @@
+1. Criar um repositório remoto:
+   - No GitHub (ou em outro serviço), crie um novo repositório. Copie o URL do repositório.
+
+2. Abrir o terminal:
+   - Abra o terminal ou prompt de comando no seu computador.
+
+3. Navegar até o diretório do seu projeto:
+   - Use o comando cd para navegar até o diretório do seu projeto no terminal.
+
+4. Configurar o repositório remoto:
+   - No terminal, use o comando git remote add origin URL_DO_REPOSITÓRIO substituindo URL_DO_REPOSITÓRIO pelo URL que você copiou anteriormente.
+
+5. Verificar a configuração:
+   - Para verificar se o repositório remoto foi configurado corretamente, use o comando git remote -v. Isso mostrará a URL do repositório remoto.
+
+6. Enviar os commits para o repositório remoto:
+   - Após fazer commits no seu projeto localmente, você pode enviá-los para o repositório remoto usando o comando git push origin NOME_DA_BRANCH, onde NOME_DA_BRANCH é o nome da branch que você quer enviar.
+
+7. Atualizar o repositório local:
+   - Para sincronizar seu repositório local com as alterações feitas no repositório remoto, use o comando git pull origin NOME_DA_BRANCH.
+
+Com estes passos, você configurará o Git para sincronizar seu projeto com o GitHub ou outro repositório remoto.
