@@ -1,4 +1,3 @@
-
 def maior_de_50(lista):
     count = 0 # contador
     for l in lista:
